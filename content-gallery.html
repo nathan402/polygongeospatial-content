@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Gallery - Polygon Geospatial</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #f8f9fa;
+      color: #333;
+    }
+    h1 { text-align: center; color: #2c3e50; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .video-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .video-card:hover { transform: scale(1.03); }
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Project Video Gallery</h1>
+  <div class="gallery">
+    <div class="video-card"><h3>Convent</h3><a href="Convent.html">Watch Video</a></div>
+    <div class="video-card"><h3>Aths Ortho</h3><a href="Aths_Ortho.html">Watch Video</a></div>
+    <div class="video-card"><h3>Siemens</h3><a href="Siemens.html">Watch Video</a></div>
+    <div class="video-card"><h3>Boulie</h3><a href="boulie.html">Watch Video</a></div>
+    <div class="video-card"><h3>Mapping</h3><a href="mapping.html">Watch Video</a></div>
+    <div class="video-card"><h3>Timelapse</h3><a href="timelapse.html">Watch Video</a></div>
+  </div>
+</body>
+</html>
